@@ -64,12 +64,11 @@ int main()
     for(int i=1;i<=n;i++){
         cin>>a;
         Insert(a);
-        /*if(i%2==0){
+        if(i%2==0){
             median = (SearchMedian(i/2)*1.0) + (SearchMedian((i/2)+1)*1.0);
             cout << median/2.0 << endl;
         }
         else {median = SearchMedian((i/2)+1);
-        printf("%.1lf\n", median);}*/
-        cerr << SearchMedian(1) << endl;
+        printf("%.1lf\n", median);}
     }
 }
